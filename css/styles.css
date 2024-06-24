@@ -1,0 +1,235 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Estilos de la cabecera */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+}
+
+header h1 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+nav ul li a:hover {
+    background: #555;
+    border-radius: 4px;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://via.placeholder.com/1200x600') no-repeat center center/cover;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+.hero .btn {
+    background: #ff6347;
+    color: #fff;
+    padding: 0.7rem 1.5rem;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+.hero .btn:hover {
+    background: #ff4500;
+}
+
+/* Sección de "Sobre mí" */
+#about {
+    background: #f4f4f4;
+    padding: 2rem 0;
+}
+
+#about h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#about .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#about img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin: 1rem;
+}
+
+#about .text {
+    max-width: 600px;
+    text-align: center;
+    margin: 1rem;
+}
+
+/* Sección de servicios */
+#services {
+    padding: 2rem 0;
+    background: #fff;
+}
+
+#services h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.service {
+    background: #eaeaea;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.service h3 {
+    margin-top: 0;
+}
+
+/* Sección de portafolio */
+#portfolio {
+    background: #f4f4f4;
+    padding: 2rem 0;
+}
+
+#portfolio h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.portfolio-item {
+    display: inline-block;
+    width: 30%;
+    margin: 1%;
+    vertical-align: top;
+    background: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.portfolio-item h3 {
+    margin-top: 0.5rem;
+}
+
+.portfolio-item p {
+    font-size: 0.9rem;
+}
+
+/* Sección de contacto */
+#contact {
+    padding: 2rem 0;
+    background: #fff;
+}
+
+#contact h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #eaeaea;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    display: block;
+    width: 100%;
+    padding: 0.7rem;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #555;
+}
+
+/* Estilos del pie de página */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}

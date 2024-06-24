@@ -1,11 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Portafolio</title>
+    <title>Portafolio de Servicios de Diseño Web</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    
+    <header>
+        <div class="container">
+            <h1><a href="#home">Diseño Web Creativo</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Inicio</a></li>
+                    <li><a href="#about">Sobre mí</a></li>
+                    <li><a href="#services">Servicios</a></li>
+                    <li><a href="#portfolio">Portafolio</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Bienvenidos a mi Portafolio</h2>
+            <p>Diseños web creativos y funcionales para tu negocio</p>
+            <a href="#portfolio" class="btn">Ver Portafolio</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>Sobre mí</h2>
+            <div class="content">
+                <img src="https://via.placeholder.com/400x300" alt="Sobre mí">
+                <div class="text">
+                    <p>¡Hola! Soy un diseñador web apasionado por crear sitios web hermosos y funcionales. Con varios años de experiencia, ofrezco soluciones personalizadas para tus necesidades en línea.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h2>Servicios</h2>
+            <div class="service">
+                <h3>Diseño Web</h3>
+                <p>Creación de sitios web atractivos y responsivos que se adaptan a todos los dispositivos.</p>
+            </div>
+            <div class="service">
+                <h3>Desarrollo Front-End</h3>
+                <p>Implementación de interfaces interactivas y amigables para el usuario utilizando HTML, CSS y JavaScript.</p>
+            </div>
+            <div class="service">
+                <h3>Optimización SEO</h3>
+                <p>Mejoras en el posicionamiento de tu sitio web en motores de búsqueda para aumentar su visibilidad.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container">
+            <h2>Portafolio</h2>
+            <div class="portfolio-item">
+                <img src="https://via.placeholder.com/300x200" alt="Proyecto 1">
+                <h3>Proyecto 1</h3>
+                <p>Descripción del proyecto 1.</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="https://via.placeholder.com/300x200" alt="Proyecto 2">
+                <h3>Proyecto 2</h3>
+                <p>Descripción del proyecto 2.</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="https://via.placeholder.com/300x200" alt="Proyecto 3">
+                <h3>Proyecto 3</h3>
+                <p>Descripción del proyecto 3.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contacto</h2>
+            <form action="#" method="post">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Diseño Web Creativo. Todos los derechos reservados.</p>
+        </div>
+    </footer>
 </body>
 </html>
